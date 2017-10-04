@@ -1,4 +1,3 @@
-// import env variables if environment is set to development
 const connection = {
   host: process.env.DB_HOST || 'localhost',
   database: process.env.DB_NAME || 'mehut',
@@ -29,4 +28,3 @@ module.exports = {
   defaultSchema: process.env.DB_DEFAULT_SCHEMA || 'walless',
   cdn: 'https://d3npmgtbh268jq.cloudfront.net'
 };
-
