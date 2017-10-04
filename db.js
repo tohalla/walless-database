@@ -17,7 +17,7 @@ const knex = {
   connection,
   pool,
   migrations: {
-    tableName: process.env.DB_MIGRATIONS_TABLE || 'migration'
+    tableName: 'migration'
   }
 };
 
