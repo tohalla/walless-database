@@ -1,44 +1,29 @@
-/* eslint-disable import/no-commonjs */
+const {defaultSchema} = require('../db');
+
 const path = require('path');
 
 const seedFile = require('knex-seed-file');
 
-const options = {
-  columnSeparator: ';',
-  ignoreFirstLine: false
-};
-
-exports.seed = knex => true || knex('account_role').del()
-    .then(() => knex('account').del())
-    .then(() => knex('email').del())
-    .then(() => knex('menu_item_category').del())
-    .then(() => knex('menu_item_type').del())
-    .then(() => knex('currency').del())
-    .then(() => seedFile(knex, path.resolve('./seeds/currency.csv'), 'currency', [
+exports.seed = knex => {
+  const options = {
+    columnSeparator: ';',
+    ignoreFirstLine: false,
+    handleInsert: (inserts, tableName) =>
+      knex.raw(`${knex(tableName).insert(inserts).toString()} ON CONFLICT DO NOTHING`)
+  };
+  return seedFile(knex, path.resolve('./seeds/currencies.csv'), `${defaultSchema}.currency`, [
       'code',
       'name',
       'symbol',
       'zero_decimal'
-    ], options))
-    .then(() => seedFile(knex, path.resolve('./seeds/email.csv'), 'email', [
-      'id',
-      'email',
-      'name',
-      'description'
-    ], options))
-    .then(() => seedFile(knex, path.resolve('./seeds/account.csv'), 'account', [
-      'id',
-      'first_name',
-      'last_name',
-      'email'
-    ], options))
-    .then(() => seedFile(knex, path.resolve('./seeds/account_role.csv'), 'account_role', [
+    ], options)
+    .then(() => seedFile(knex, path.resolve('./seeds/account_role.csv'), `${defaultSchema}.account_role`, [
       'id',
       'name',
       'description',
       'restaurant'
     ], options))
-    .then(() => seedFile(knex, path.resolve('./seeds/restaurant_role_rights.csv'), 'restaurant_role_rights', [
+    .then(() => seedFile(knex, path.resolve('./seeds/restaurant_role_rights.csv'), `${defaultSchema}.restaurant_role_rights`, [
       'id',
       'role',
       'restaurant',
@@ -63,16 +48,20 @@ exports.seed = knex => true || knex('account_role').del()
       'allow_view_user_roles',
       'allow_upload_image',
       'allow_delete_image',
-      'allow_update_order'
+      'allow_update_order',
+      'allow_download_qr_codes',
+      'allow_messaging_with_customers',
+      'is_employee'
     ], options))
-    .then(() => seedFile(knex, path.resolve('./seeds/menu_item_type.csv'), 'menu_item_type', [
+    .then(() => seedFile(knex, path.resolve('./seeds/menu_item_type.csv'), `${defaultSchema}.menu_item_type`, [
       'id',
       'name',
       'description'
     ], options))
-    .then(() => seedFile(knex, path.resolve('./seeds/menu_item_category.csv'), 'menu_item_category', [
+    .then(() => seedFile(knex, path.resolve('./seeds/menu_item_category.csv'), `${defaultSchema}.menu_item_category`, [
       'id',
       'name',
       'type',
       'description'
     ], options));
+  };

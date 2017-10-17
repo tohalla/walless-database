@@ -1,0 +1,139 @@
+fi_FI;account.authenticate;Kirjaudu sisään
+fi_FI;account.authenticated;Kirjautuneena %{name}
+fi_FI;account.changePassword;Vaihda salasana
+fi_FI;account.currentPassword;Nykyinen salasana
+fi_FI;account.dateOfBirth;Syntymäpäivä
+fi_FI;account.email;Sähköposti
+fi_FI;account.firstName;Etunimi
+fi_FI;account.invalidPassword;Väärä salasana
+fi_FI;account.lastName;Sukunimi
+fi_FI;account.name;Nimi
+fi_FI;account.password;Salasana
+fi_FI;account.passwordForgotten;Unohditko salasanasi?
+fi_FI;account.register;Luo käyttäjä
+fi_FI;account.resetPassword;Nollaa salasana
+fi_FI;account.retypePassword;Kirjoita salasana uudelleen
+fi_FI;account.role;Rooli
+fi_FI;account.signOut;Kirjaudu ulos
+fi_FI;account.validationEmailSent;Vahvistussähköposti on lähetetty
+fi_FI;add;Lisää
+fi_FI;address;Osoite
+fi_FI;cancel;Peruuta
+fi_FI;close;Sulje
+fi_FI;confirm;Varmista
+fi_FI;confirmDelete;Oletko varma että haluat poistaa %{name}? Tapahtumaa ei voi perua.
+fi_FI;continue;Jatka
+fi_FI;currency;Valuutta
+fi_FI;defaultValue;Oletusarvo
+fi_FI;delete;Poista
+fi_FI;disable;Disable
+fi_FI;disabled;Disabled
+fi_FI;dropImages;Pudota kuva
+fi_FI;edit;Muokkaa
+fi_FI;enable;Salli
+fi_FI;enabled;Sallittu
+fi_FI;error.downloadNotAuthorized;Lataus ei sallittu
+fi_FI;error.emailRegisteredToAccount;Sähköposti %{email} on jo käytössä toisella käyttäjällä
+fi_FI;error.invalidAuthenticationInformation;Todentaminen ei onnistunut
+fi_FI;language;Kieli
+fi_FI;location;Sijainti
+fi_FI;navigation.contactUs;Ota yhteyttä
+fi_FI;navigation.documentation;Dokumentaatio
+fi_FI;navigation.home;Koti
+fi_FI;navigation.orders.myOrders;Minun tilaukseni
+fi_FI;navigation.orders.orders;Tilaukset
+fi_FI;navigation.orders.receipts;Kuitit
+fi_FI;navigation.orders.recent;Viimeaikaiset tilaukset
+fi_FI;navigation.restaurant;Ravintola
+fi_FI;navigation.settings.account;Käyttäjä
+fi_FI;navigation.settings.notifications;Ilmoitukset
+fi_FI;navigation.settings.settings;Asetukset
+fi_FI;notifications.orderCompleted;Tilaus %{order} on valmiina
+fi_FI;notifications.orderPlaced;Tilauksesi on vastaanotettu!
+fi_FI;ok;Ok
+fi_FI;optional;Valinnainen
+fi_FI;profile;Profiili
+fi_FI;restaurant.action.edit;Muokkaa
+fi_FI;restaurant.action.manageSettings;Asetukset
+fi_FI;restaurant.address;Osoite
+fi_FI;restaurant.cart.cart;Ostoskori
+fi_FI;restaurant.cart.cartIsEmpty;Ostoskori on tyhjä
+fi_FI;restaurant.cart.checkout;Tilatut tuotteet
+fi_FI;restaurant.cart.clearItems;Tyhjennä
+fi_FI;restaurant.cart.items;Tuotteet
+fi_FI;restaurant.cart.totalPrice;Yhteensä
+fi_FI;restaurant.dashboard.dashboard;Dashboard
+fi_FI;restaurant.description;Kuvaus
+fi_FI;restaurant.images;Kuvat
+fi_FI;restaurant.menu.action.create;Lisää uusi menu
+fi_FI;restaurant.menu.action.delete;Poista
+fi_FI;restaurant.menu.action.edit;Muokkaa
+fi_FI;restaurant.menu.actions;Toiminnot
+fi_FI;restaurant.menu.description;Kuvaus
+fi_FI;restaurant.menu.manageMenuItems;Hallitse menun tuotteita
+fi_FI;restaurant.menu.menus;Menut
+fi_FI;restaurant.menu.name;Nimi
+fi_FI;restaurant.menuItem.action.create;Lisää uusi tuote
+fi_FI;restaurant.menuItem.action.delete;Poista
+fi_FI;restaurant.menuItem.action.edit;Muokkaa
+fi_FI;restaurant.menuItem.action.filter;Suodata
+fi_FI;restaurant.menuItem.actions;Tapahtumat
+fi_FI;restaurant.menuItem.addNewOption;Lisää uusi vaihtoehto
+fi_FI;restaurant.menuItem.category;Kategoria
+fi_FI;restaurant.menuItem.description;Kuvaus
+fi_FI;restaurant.menuItem.diets;Dieetit
+fi_FI;restaurant.menuItem.images;Kuvat
+fi_FI;restaurant.menuItem.menuItems;Menu tuotteet
+fi_FI;restaurant.menuItem.name;Nimi
+fi_FI;restaurant.menuItem.options;Valinnat
+fi_FI;restaurant.menuItem.price;Hinta
+fi_FI;restaurant.menuItem.quantity;Määrä
+fi_FI;restaurant.menuItem.type;Tyyppi
+fi_FI;restaurant.name;Nimi
+fi_FI;restaurant.option.enabledByDefault;Sallittu oletuksena
+fi_FI;restaurant.order.accept;Hyväksy tilaus
+fi_FI;restaurant.order.acceptedAt;Hyväksytty
+fi_FI;restaurant.order.action.filter;Suodata tilaukset
+fi_FI;restaurant.order.complete;Merkitse valmiiksi
+fi_FI;restaurant.order.completedAt;Completed at
+fi_FI;restaurant.order.createdAt;Tilaus aika
+fi_FI;restaurant.order.createdBy;Tilaaja
+fi_FI;restaurant.order.decline;Peruuta tilaus
+fi_FI;restaurant.order.declined;Peruutettu
+fi_FI;restaurant.order.items;Tuotteet
+fi_FI;restaurant.order.message;Viesti
+fi_FI;restaurant.order.orderer;Asiakas
+fi_FI;restaurant.order.orderItem;Tilaa tuote
+fi_FI;restaurant.order.orders;Tilaukset
+fi_FI;restaurant.order.paidAt;Paid at
+fi_FI;restaurant.order.servingLocation;Tarjoilu sijainti
+fi_FI;restaurant.order.state.accepted;Hyväksytty
+fi_FI;restaurant.order.state.completed;Suoritettu
+fi_FI;restaurant.order.state.declined;Hylätty
+fi_FI;restaurant.order.state.paid;Maksettu
+fi_FI;restaurant.order.state.pending;Vireillä
+fi_FI;restaurant.order.state.state;Tila
+fi_FI;restaurant.placeholder.address;Kirjoita osoite
+fi_FI;restaurant.restaurant;Ravintola
+fi_FI;restaurant.scanQR;Skannaa QR koodi
+fi_FI;restaurant.servingLocation.action.create;Lisää uusi tarjoilu sijainti
+fi_FI;restaurant.servingLocation.action.delete;Poista
+fi_FI;restaurant.servingLocation.action.downloadQR;Lataa QR koodit
+fi_FI;restaurant.servingLocation.action.edit;Muokkaa
+fi_FI;restaurant.servingLocation.action.filter;Suodata tarjoilu sijainnit
+fi_FI;restaurant.servingLocation.actions;Toiminnot
+fi_FI;restaurant.servingLocation.checkout;Kirjaudu ulos
+fi_FI;restaurant.servingLocation.name;Nimi
+fi_FI;restaurant.servingLocation.servingLocations;Tarjoilupisteet
+fi_FI;restaurant.settings.settings;Asetukset
+fi_FI;restaurant.userManagement.action.filter;Suodata käyttäjiä
+fi_FI;restaurant.userManagement.userManagement;Käyttäjähallinta
+fi_FI;return;Palauta
+fi_FI;select;Valitse
+fi_FI;selectImages;Valitse kuvat
+fi_FI;showAll;Näytä kaikki
+fi_FI;submit;Lisää
+fi_FI;time.allTime;Aina
+fi_FI;time.today;Tänään
+fi_FI;uploadImages;Lataa kuvia
+fi_FI;view;Katsele
