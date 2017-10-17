@@ -16,7 +16,8 @@ const knex = {
   connection,
   pool,
   migrations: {
-    tableName: 'migration'
+    tableName: 'migration',
+    stub: 'migrations/template.js'
   }
 };
 
