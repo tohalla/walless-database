@@ -12,9 +12,9 @@ exports.up = knex => knex.raw(`
 `));
 
 exports.down = knex => knex.raw(`
-  DROP POLICY admin_access_role_rights ON walless.restaurant_role_rights
+  DROP POLICY admin_access_role_rights ON ${defaultSchema}.restaurant_role_rights
 `)
 .then(() => knex.raw(`
-  DROP POLICY admin_insert_role_rights ON walless.restaurant_role_rights
+  DROP POLICY admin_insert_role_rights ON ${defaultSchema}.restaurant_role_rights
 `));
 
