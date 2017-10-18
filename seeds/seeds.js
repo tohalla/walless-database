@@ -63,5 +63,25 @@ exports.seed = knex => {
       'name',
       'type',
       'description'
+    ], options))
+    .then(() => seedFile(knex, path.resolve('./seeds/option.csv'), `${defaultSchema}.option`, [
+      'id'
+    ], options))
+    .then(() => seedFile(knex, path.resolve('./seeds/option_i18n.csv'), `${defaultSchema}.option_i18n`, [
+      'option',
+      'language',
+      'name',
+      'description'
+    ], options))
+    .then(() => seedFile(knex, path.resolve('./seeds/diet.csv'), `${defaultSchema}.diet`, [
+      'id',
+      'color'
+    ], options))
+    .then(() => seedFile(knex, path.resolve('./seeds/diet_i18n.csv'), `${defaultSchema}.diet_i18n`, [
+      'diet',
+      'language',
+      'name',
+      'abbreviation',
+      'description'
     ], options));
   };
