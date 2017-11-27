@@ -18,6 +18,12 @@ en;account.signOut;Sign out
 en;account.validationEmailSent;Validation email has been sent
 en;add;Add
 en;address;Address
+en;availability.addSchedule;Add schedule;
+en;availability.addShift;Add shift;
+en;availability.selectSpecificDates;Select specific dates;
+en;availability.selectWeekdays;Select weekdays;
+en;availability.updateSchedule;Update schedule;
+en;availability.updateShift;Update shift;
 en;cancel;Cancel
 en;close;Close
 en;confirm;Confirm
@@ -55,6 +61,7 @@ en;ok;Ok
 en;optional;Optional
 en;profile;profile
 en;restaurant.action.edit;Edit
+en;restaurant.action.manageOpeningHours;Manage opening hours
 en;restaurant.action.manageSettings;Settings
 en;restaurant.address;Address
 en;restaurant.cart.cart;Cart
@@ -66,6 +73,22 @@ en;restaurant.cart.totalPrice;Total
 en;restaurant.dashboard.dashboard;Dashboard
 en;restaurant.description;Description
 en;restaurant.images;Images
+en;restaurant.item.action.create;Add new item
+en;restaurant.item.action.delete;Delete
+en;restaurant.item.action.edit;Edit
+en;restaurant.item.action.filter;Filter items
+en;restaurant.item.actions;Actions
+en;restaurant.item.addNewOption;Add new option
+en;restaurant.item.category;Category
+en;restaurant.item.description;Description
+en;restaurant.item.diets;Diets
+en;restaurant.item.images;Images
+en;restaurant.item.items;Items
+en;restaurant.item.name;Name
+en;restaurant.item.options;Options
+en;restaurant.item.price;Price
+en;restaurant.item.quantity;Quantity
+en;restaurant.item.type;Type
 en;restaurant.menu.action.create;Add new menu
 en;restaurant.menu.action.delete;Delete
 en;restaurant.menu.action.edit;Edit
@@ -74,22 +97,6 @@ en;restaurant.menu.description;Description
 en;restaurant.menu.manageMenuItems;Manage menu items
 en;restaurant.menu.menus;Menus
 en;restaurant.menu.name;Name
-en;restaurant.menuItem.action.create;Add new menu item
-en;restaurant.menuItem.action.delete;Delete
-en;restaurant.menuItem.action.edit;Edit
-en;restaurant.menuItem.action.filter;Filter items
-en;restaurant.menuItem.actions;Actions
-en;restaurant.menuItem.addNewOption;Add new option
-en;restaurant.menuItem.category;Category
-en;restaurant.menuItem.description;Description
-en;restaurant.menuItem.diets;Diets
-en;restaurant.menuItem.images;Images
-en;restaurant.menuItem.menuItems;Menu items
-en;restaurant.menuItem.name;Name
-en;restaurant.menuItem.options;Options
-en;restaurant.menuItem.price;Price
-en;restaurant.menuItem.quantity;Quantity
-en;restaurant.menuItem.type;Type
 en;restaurant.name;Name
 en;restaurant.option.enabledByDefault;Enabled by default
 en;restaurant.order.accept;Accept order
@@ -135,6 +142,36 @@ en;selectImages;Select Images
 en;showAll;Show all
 en;submit;Submit
 en;time.allTime;All time
+en;time.dateFrom;From;
+en;time.dateTo;To;
+en;time.month.april;April;
+en;time.month.august;August;
+en;time.month.december;December;
+en;time.month.february;February;
+en;time.month.january;January;
+en;time.month.july;July;
+en;time.month.june;June;
+en;time.month.march;March;
+en;time.month.may;May;
+en;time.month.november;November;
+en;time.month.october;October;
+en;time.month.september;September;
+en;time.timeFrom;From;
+en;time.timeTo;To;
 en;time.today;Today
+en;time.weekday.fr;Fr;
+en;time.weekday.friday;Friday;
+en;time.weekday.mo;Mo;
+en;time.weekday.monday;Monday;
+en;time.weekday.sa;Sa;
+en;time.weekday.saturday;Saturday;
+en;time.weekday.su;Su;
+en;time.weekday.sunday;Sunday;
+en;time.weekday.th;Th;
+en;time.weekday.thursday;Thursday;
+en;time.weekday.tu;Tu;
+en;time.weekday.tuesday;Tuesday;
+en;time.weekday.we;We;
+en;time.weekday.wednesday;Wednesday;
 en;uploadImages;Upload images
 en;view;View
