@@ -7,8 +7,10 @@ exports.seed = knex => {
   const options = {
     columnSeparator: ';',
     ignoreFirstLine: false,
-    handleInsert: (inserts, tableName) =>
-      knex.raw(`${knex(tableName).insert(inserts).toString()} ON CONFLICT DO NOTHING`)
+    handleInsert: (inserts, tableName) => knex.raw(
+      knex(tableName).insert(inserts).toString().replace('?', '\\?') +
+      ' ON CONFLICT DO NOTHING'
+    )
   };
   return seedFile(knex, path.resolve('./seeds/translation/language.csv'), 'translation.language', [
       'locale',

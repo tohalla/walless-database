@@ -1,5 +1,5 @@
 fi_FI;account.authenticate;Kirjaudu sisään
-fi_FI;account.authenticated;Kirjautuneena %{name}
+fi_FI;account.authenticated;Kirjautuneena {{name}}
 fi_FI;account.changePassword;Vaihda salasana
 fi_FI;account.currentPassword;Nykyinen salasana
 fi_FI;account.dateOfBirth;Syntymäpäivä
@@ -21,7 +21,7 @@ fi_FI;address;Osoite
 fi_FI;cancel;Peruuta
 fi_FI;close;Sulje
 fi_FI;confirm;Varmista
-fi_FI;confirmDelete;Oletko varma että haluat poistaa %{name}? Tapahtumaa ei voi perua.
+fi_FI;confirmDelete;Oletko varma että haluat poistaa {{name}}? Tapahtumaa ei voi perua.
 fi_FI;continue;Jatka
 fi_FI;currency;Valuutta
 fi_FI;defaultValue;Oletusarvo
@@ -33,7 +33,7 @@ fi_FI;edit;Muokkaa
 fi_FI;enable;Salli
 fi_FI;enabled;Sallittu
 fi_FI;error.downloadNotAuthorized;Lataus ei sallittu
-fi_FI;error.emailRegisteredToAccount;Sähköposti %{email} on jo käytössä toisella käyttäjällä
+fi_FI;error.emailRegisteredToAccount;Sähköposti {{email}} on jo käytössä toisella käyttäjällä
 fi_FI;error.invalidAuthenticationInformation;Todentaminen ei onnistunut
 fi_FI;language;Kieli
 fi_FI;location;Sijainti
@@ -48,7 +48,7 @@ fi_FI;navigation.restaurant;Ravintola
 fi_FI;navigation.settings.account;Käyttäjä
 fi_FI;navigation.settings.notifications;Ilmoitukset
 fi_FI;navigation.settings.settings;Asetukset
-fi_FI;notifications.orderCompleted;Tilaus %{order} on valmiina
+fi_FI;notifications.orderCompleted;Tilaus {{order}} on valmiina
 fi_FI;notifications.orderPlaced;Tilauksesi on vastaanotettu!
 fi_FI;ok;Ok
 fi_FI;optional;Valinnainen
