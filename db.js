@@ -27,5 +27,5 @@ module.exports = {
   production: knex,
   pg: Object.assign({}, pool, connection),
   defaultSchema: process.env.DB_DEFAULT_SCHEMA || 'walless',
-  cdn: 'https://nyc3.digitaloceanspaces.com/walless-uploads/'
+  cdn: 'https://walless-upload.ams3.digitaloceanspaces.com'
 };
