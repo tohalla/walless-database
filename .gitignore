@@ -14,5 +14,6 @@ Thumbs.db
 *.log
 
 *.sublime-*
+.vscode
 
 .tern-port
