@@ -22,12 +22,12 @@ en;account.updatePassword;Update password
 en;account.validationEmailSent;Validation email has been sent
 en;add;Add
 en;address;Address
-en;availability.addSchedule;Add schedule;
-en;availability.addShift;Add shift;
-en;availability.selectSpecificDates;Select specific dates;
-en;availability.selectWeekdays;Select weekdays;
-en;availability.updateSchedule;Update schedule;
-en;availability.updateShift;Update shift;
+en;availability.addSchedule;Add schedule
+en;availability.addShift;Add shift
+en;availability.selectSpecificDates;Select specific dates
+en;availability.selectWeekdays;Select weekdays
+en;availability.updateSchedule;Update schedule
+en;availability.updateShift;Update shift
 en;cancel;Cancel
 en;close;Close
 en;confirm;Confirm
@@ -67,6 +67,7 @@ en;notifications.orderCompleted;Order {{order}} has been completed
 en;notifications.orderPlaced;Your order has been placed
 en;ok;Ok
 en;optional;Optional
+en;preferredLanguage;Preferred language
 en;profile;profile
 en;restaurant.action.edit;Edit
 en;restaurant.action.manageOpeningHours;Manage opening hours
@@ -107,6 +108,7 @@ en;restaurant.menu.menus;Menus
 en;restaurant.menu.name;Name
 en;restaurant.name;Name
 en;restaurant.openingHours.notSet;Opening hours have not been set
+en;restaurant.openingHours.setOpeningHours;
 en;restaurant.option.enabledByDefault;Enabled by default
 en;restaurant.order.accept;Accept order
 en;restaurant.order.acceptedAt;Accepted at
@@ -151,36 +153,36 @@ en;selectImages;Select Images
 en;showAll;Show all
 en;submit;Submit
 en;time.allTime;All time
-en;time.dateFrom;From;
-en;time.dateTo;To;
-en;time.month.april;April;
-en;time.month.august;August;
-en;time.month.december;December;
-en;time.month.february;February;
-en;time.month.january;January;
-en;time.month.july;July;
-en;time.month.june;June;
-en;time.month.march;March;
-en;time.month.may;May;
-en;time.month.november;November;
-en;time.month.october;October;
-en;time.month.september;September;
-en;time.timeFrom;From;
-en;time.timeTo;To;
+en;time.dateFrom;From
+en;time.dateTo;To
+en;time.month.april;April
+en;time.month.august;August
+en;time.month.december;December
+en;time.month.february;February
+en;time.month.january;January
+en;time.month.july;July
+en;time.month.june;June
+en;time.month.march;March
+en;time.month.may;May
+en;time.month.november;November
+en;time.month.october;October
+en;time.month.september;September
+en;time.timeFrom;From
+en;time.timeTo;To
 en;time.today;Today
-en;time.weekday.fr;Fr;
-en;time.weekday.friday;Friday;
-en;time.weekday.mo;Mo;
-en;time.weekday.monday;Monday;
-en;time.weekday.sa;Sa;
-en;time.weekday.saturday;Saturday;
-en;time.weekday.su;Su;
-en;time.weekday.sunday;Sunday;
-en;time.weekday.th;Th;
-en;time.weekday.thursday;Thursday;
-en;time.weekday.tu;Tu;
-en;time.weekday.tuesday;Tuesday;
-en;time.weekday.we;We;
-en;time.weekday.wednesday;Wednesday;
+en;time.weekday.fr;Fr
+en;time.weekday.friday;Friday
+en;time.weekday.mo;Mo
+en;time.weekday.monday;Monday
+en;time.weekday.sa;Sa
+en;time.weekday.saturday;Saturday
+en;time.weekday.su;Su
+en;time.weekday.sunday;Sunday
+en;time.weekday.th;Th
+en;time.weekday.thursday;Thursday
+en;time.weekday.tu;Tu
+en;time.weekday.tuesday;Tuesday
+en;time.weekday.we;We
+en;time.weekday.wednesday;Wednesday
 en;uploadImages;Upload images
 en;view;View

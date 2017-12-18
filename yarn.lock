@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@types/node@^8.0.57":
+  version "8.5.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.1.tgz#4ec3020bcdfe2abffeef9ba3fbf26fca097514b5"
+
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
@@ -1328,6 +1332,12 @@ tmp@^0.0.33:
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
   dependencies:
     os-tmpdir "~1.0.2"
+
+traman@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/traman/-/traman-1.0.0.tgz#9f5a4a92979eb70ae20fe446698ece813211f35b"
+  dependencies:
+    "@types/node" "^8.0.57"
 
 tryit@^1.0.1:
   version "1.0.3"
